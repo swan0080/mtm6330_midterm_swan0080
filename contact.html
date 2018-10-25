@@ -1,41 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css"	type="text/css">
+      <title>Midterm</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <div class="bar">
-      <!-- This div removed phantom bar below banner photo-->
-      <div class="img">
-          <img src="img/banner.jpg" halt="title banner" class="banner">
-      </div>
-      <div class="bannertext">
-          <h1>MY PORTFOLIO</h1>
-      </div>
-  </div>
+        <!-- This div removed phantom bar below banner photo-->
+        <div class="img">
+            <img src="img/fortnite.jpg" halt="title banner" class="banner">
+        </div>
+        <div class="bannertext">
+            My Portfolio
+        </div>
+    </div>
 
 <div class="topnav">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
 </div>
-<!-- Platforms -->
-
-<h2>MY PHOTAGRAPHY</h2>
-<p>My name is Matt I love taking photos</p>
-<p>they are my passion!</p>
-
-<footer>
-  <div class="topnav">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
-</div>
-  Copyrights - My PORTFOLIO
-</footer>
-
-</body>
-</html>
+<form name="htmlform" method="post" action="html_form_send.php">
+    <table width="450px">
+    </tr>
+    <tr>
+     <td valign="top">
+      <label for="first_name">First Name *</label>
+     </td>
+     <td valign="top">
+      <input  type="text" name="first_name" maxlength="50" size="30">
+     </td>
+    </tr>
+     
+    <tr>
+     <td valign="top"">
+      <label for="last_name">Last Name *</label>
+     </td>
+     <td valign="top">
+      <input  type="text" name="last_name" maxlength="50" size="30">
+     </td>
+    </tr>
+    <tr>
+     <td valign="top">
+      <label for="email">Email Address *</label>
+     </td>
+     <td valign="top">
+      <input  type="text" name="email" maxlength="80" size="30">
+     </td>
+     
+    </tr>
+    <tr>
+     <td valign="top">
+      <label for="telephone">Telephone Number</label>
+     </td>
+     <td valign="top">
+      <input  type="text" name="telephone" maxlength="30" size="30">
+     </td>
+    </tr>
+    <tr>
+     <td valign="top">
+      <label for="comments">Comments *</label>
+     </td>
+     <td valign="top">
+      <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+     </td>
+     
+    </tr>
+    <tr>
+     <td colspan="2" style="text-align:center">
+      <input type="submit" value="Submit"> HTML Form</a> )
+     </td>
+    </tr>
+    </table>
+    </form>
+    </body>
+    </html>
+    
+    
