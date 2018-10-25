@@ -1,0 +1,23 @@
+{
+  "name": "mtm6330_midterm_swan0080",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swan0080/mtm6330_midterm_swan0080.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swan0080/mtm6330_midterm_swan0080/issues"
+  },
+  "homepage": "https://github.com/swan0080/mtm6330_midterm_swan0080#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
+}
