@@ -66,11 +66,11 @@ body {
     float: left;
     width: 75%;
 }
-h2{
+.h2{
     text-align: center;
 }
 
-p{
+.p{
     text-align: center;
 }
 /* Right column */
