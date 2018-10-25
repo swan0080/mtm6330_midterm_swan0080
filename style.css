@@ -37,7 +37,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(168, 164, 164);
 }
 /*To make there be the line appear*/
 .bar{
@@ -66,7 +66,13 @@ body {
     float: left;
     width: 75%;
 }
+h2 {
+    text-align: center;
+}
 
+p {
+    text-align: center;
+}
 /* Right column */
 .rightcolumn {
     float: left;
