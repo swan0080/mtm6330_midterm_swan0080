@@ -66,6 +66,9 @@ body {
     float: left;
     width: 75%;
 }
+h1{
+    font-size: 2.5em;
+}
 h2{
     text-align: center;
     font-size: 2em;
