@@ -145,10 +145,10 @@ body{
 }
 form{
   margin: 1rem;
-  border: 5px solid darkblue;
+  border: 5px solid grey;
   padding: 3rem;
   border-radius: 2rem;
-  box-shadow: 5px 10px blue;
+  box-shadow: 5px 10px lightgray;
   font-weight: bold;
 }
 fieldset{
@@ -162,7 +162,7 @@ label{
 }
 input,
 textarea{
-  background-color: aqua;
+  background-color:grey;
   width: 100%;
   padding: 0.7rem;
   color: black;
